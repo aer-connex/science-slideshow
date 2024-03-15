@@ -49,7 +49,7 @@ function changeMenu(context) {
   switch (context) {
     case 'home':
       title.innerText = 'home';
-      info.innerText = 'what we will go over: \n\n -exoskeleton; \n\n -body (head, thorax, abdomen); \n\n -${legs}; \n\n -antennae; \n\n -simple eyes.';
+      info.innerText = 'what we will go over: \n\n -exoskeleton; \n\n -body (head, thorax, abdomen); \n\n -legs; \n\n -antennae; \n\n -simple eyes.';
       toggleMenu();
       addActiveClass(context);
       break;
